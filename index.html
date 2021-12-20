@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-<link href="images/favicon.png" rel="icon" />
+<link href="favicon.ico" rel="icon" />
 <title>London Comedy Lunch | 2021</title>
 <meta name="description" content="London Comedy Lunch 2021">
-<meta name="author" content="inconnection.uk.com">
+<meta name="author" content="inconnection.com">
 
 <!-- Web Fonts -->
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
@@ -81,10 +82,47 @@
 <!-- Document Wrapper   
 =============================== -->
 <div id="main-wrapper"> 
+ 
+ <!-- Header -->
+<header id="header" class="sticky-top-static"> 
+  <!-- Navbar -->
+  <nav class="primary-menu navbar navbar-expand-lg navbar-text-light bg-transparent border-bottom-0 text-3">
+    <div class="container-fluid position-relative">
+      <div class="col-auto col-lg-2"> 
+      </div>
+      <div class="col col-lg-8 navbar-accordion px-0">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        <div id="header-nav" class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#guests">Guests</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#previous">Previous Events</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-auto col-lg-2 d-flex justify-content-end pl-0">
+        <ul class="social-icons social-icons-light social-icons-sm mb-n1">
+          <li class="social-icons-twitter"><a data-toggle="tooltip" href="https://twitter.com/inconnectionuk?lang=en" target="_blank" rel="noopener" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-icons-linkedin"><a data-toggle="tooltip" href="https://www.linkedin.com/company/inconnection" target="_blank" rel="noopener" title="" data-original-title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          <li class="social-icons-instagram"><a data-toggle="tooltip" href="https://www.instagram.com/inconnectionuk/?hl=en" target="_blank" rel="noopener" title="" data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End --> 
+</header>
+<!-- Header End -->
   
-  <!-- Slideshow Intro
+  <!-- Content
+  ============================================= -->
+  <div id="content" role="main"> 
+  
+    <!-- Slideshow Intro
     ============================================= -->
-  <section id="home" class="owl-carousel owl-theme single-slideshow owl-light" data-autoplay="true" data-loop="true" data-nav="true" data-items="1">
+  <section id="home" class="owl-theme single-slideshow owl-light" data-autoplay="true" data-loop="true" data-nav="true" data-items="1">
     <div class="item">
       <div class="hero-wrap">
         <div class="hero-mask opacity-7 bg-dark"></div>
@@ -92,14 +130,18 @@
         <div class="hero-content d-flex flex-column fullscreen">
           <div class="container my-auto">
             <div class="row">
-              <div class="col-md-8 mx-auto text-center">
-                <p class="text-5 text-white">2021</p>
+              <div class="col-md-8 mx-auto text-center" style="padding-top: 35px;">
+                <ul class="nav nav-pills justify-content-center" id="pillsmyTab" role="tablist">
+                  <li class="nav-item"> <a class="nav-link active" id="firstTab-Pills" data-toggle="tab" href="#firstTabPills" role="tab" aria-controls="firstTabPills" aria-selected="true">2021</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="https://www.londoncomedylunch.com/index-2.html" role="tab" aria-controls="secondTabPills" aria-selected="false">2022</a> </li>
+                </ul>
+                <br>
                 <div class="row">
                   <div class="col-auto mx-auto"> <span class="border-bottom border-top py-1 border-primary border-1 d-block"></span>
                     <h2 class="text-17 font-weight-600 text-white text-uppercase mb-0"><img class="img-fluid d-inline-block w-auto" src="images/logo.png" alt="London Comedy Lunch"/></h2>
                     <span class="border-bottom border-top py-1 border-primary border-1 d-block"></span> </div>
                 </div>
-                <p class="lead text-white mt-3 mb-0">2022 Tickets now on sale!</p>
+                <p class="lead text-white mt-3 mb-0"><a href="https://www.londoncomedylunch.com/index-2.html" class="text-white">Tickets now on sale for 2022 !</p>
               </div>
             </div>
           </div>
@@ -111,15 +153,18 @@
     </div>
   </section>
   <!-- Slideshow Intro end --> 
-  
+    
+    
   <!-- Header
   ============================ -->
   <header id="header" class="sticky-top"> 
     <!-- Navbar -->
     <nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-text-light border-dark text-uppercase font-weight-500">
-      <div class="container"> 
+      <div class="container">
+        <button type="button" class="btn btn-primary btn-sm">2021</button>
+        <button type="button" class="btn btn-outline-white btn-sm shadow-none" style="color: #fff;"><a href="https://www.londoncomedylunch.com/index-2.html">2022</a></button> 
         <!-- Logo --> 
-        <a class="logo ml-3 ml-md-0" href="index.html" title="Doon"> <img src="images/logo.png" width="300px" height="100px" alt="London Comedy Lunch"/> </a> 
+        <a class="logo ml-3 ml-md-0" href="index.html" title="LCL"> <img src="images/logo.png" width="250px" height="100px" alt="London Comedy Lunch"/> </a> 
         <!-- Logo End -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
         <div id="header-nav" class="collapse navbar-collapse justify-content-end">
@@ -138,10 +183,6 @@
     <!-- Navbar End --> 
   </header>
   <!-- Header End --> 
-  
-  <!-- Content
-  ============================================= -->
-  <div id="content" role="main"> 
     
     <!-- About
     ============================================= -->
@@ -149,30 +190,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-xl-6 text-center text-lg-left">
-            <h2 class="text-7 text-white font-weight-600 mb-3">It's our pleasure to announce <span class="text-primary font-weight-700">LCL</span> 2021.</h2>
-            <p class="text-4 text-muted">Proudly presented to you by Inconnection</p>
-            <p class="text-3 text-light">Back for its tenth year, Inconnection’s London Comedy Lunch has been a highlight of the capital’s festive events calendar since year one. Over the last ten years it has raised a lot of laughs – and over <span class="font-weight-600">£100,000</span> for charity.</p>
-            <p class="text-3 text-light">Exclusive performances from the likes of <span class="font-weight-600">Dara Ó Briain, Jimmy Carr, Jack Whitehall</span> and many more. Only the best will do for the London Comedy Lunch.</p>
+            <h2 class="text-9 text-white font-weight-600 mb-3">An afternoon of comedy with<span class="text-primary font-weight-700"> special guests</span>.</h2>
+            <p class="text-4 text-muted">Brought to you by Inconnection</p>
+            <p class="text-3 text-light">Back for its tenth year, Inconnection’s London Comedy Lunch has been a highlight of the capital’s festive events calendar since year one. Over the last ten years it has raised a lot of laughs – and over £100,000 for charity.</p>
+            <p class="text-3 text-light">Exclusive performances from the likes of Dara Ó Briain, Jimmy Carr, Jack Whitehall and many more. Only the best will do for the London Comedy Lunch.</p>
             <div class="row">
-              <div class="col-6 col-md-4 mt-4 mt-lg-0">
+              <div class="col-6 col-md-10 mt-4 mt-lg-0">
                 <div class="featured-box style-1 text-left">
-                  <div class="featured-box-icon text-primary"><i class="far fa-smile"></i></div>
-                  <h4 class="text-7 text-white mt-n1 mb-0"><span class="counter" data-from="0" data-to="1000">1000</span>+</h4>
-                  <p class="text-3 text-light font-weight-300 mb-0">Laughing Clients</p>
+                  <div class="featured-box-icon text-primary"><i class="far fa-calendar-alt"></i></div>
+                  <p class="text-3 text-light font-weight-300 mb-0">DATE</p>
+                  <h4 class="text-6 text-white mt-n1 mb-0">Thursday 2nd December <span class="counter" data-from="2010" data-to="2021"></span></h4>
                 </div>
               </div>
-              <div class="col-6 col-md-4 mt-4 mt-lg-0">
+              <div class="col-6 col-md-10 mt-4 mt-lg-0">
                 <div class="featured-box style-1 text-left">
-                  <div class="featured-box-icon text-primary"><i class="far fa-check-circle"></i></div>
-                  <h4 class="text-7 text-white mt-n1 mb-0"><span class="counter" data-from="0" data-to="10">10</span>+</h4>
-                  <p class="text-3 text-light font-weight-300 mb-0">Lunches Complete</p>
-                </div>
-              </div>
-              <div class="col-6 col-md-4 mt-4 mt-lg-0">
-                <div class="featured-box style-1 text-left">
-                  <div class="featured-box-icon text-primary"><i class="fas fa-award"></i></div>
-                  <h4 class="text-7 text-white mt-n1 mb-0"><span class="counter" data-from="0" data-to="107">107</span></h4>
-                  <p class="text-3 text-light font-weight-300 mb-0">Positive Reviews</p>
+                  <div class="featured-box-icon text-primary"><i class="far fa-compass"></i></div>
+                  <p class="text-3 text-light font-weight-300 mb-0">LOCATION</p>
+                  <h4 class="text-6 text-white mt-n1 mb-0">Old Billingsgate, London,<br> EC3R 6DX</h4>
                 </div>
               </div>
             </div>
@@ -180,8 +214,8 @@
           <div class="col-lg-4 col-xl-6 text-center mt-5 mt-lg-0">
             <div class="hero-wrap section h-100 shadow-lg p-5">
               <div class="hero-mask opacity-6 bg-primary"></div>
-              <div class="hero-bg hero-bg-scroll" style="background-image:url('./images/who-we-are.jpg');"></div>
-              <div class="hero-content h-100 d-flex flex-column align-items-center justify-content-center py-5"> <a class="btn-video-play popup-youtube" href="https://www.youtube.com/watch?v=asxW-6D2J5U"><i class="fas fa-play"></i></a>
+              <div class="hero-bg hero-bg-scroll" style="background-image:url('./images/guests/video.jpg');"></div>
+              <div class="hero-content h-100 d-flex flex-column align-items-center justify-content-center py-5"> <a class="btn-video-play popup-youtube" href="https://www.youtube.com/watch?v=f6UbJTQhwM0"><i class="fas fa-play"></i></a>
                 <p class="text-white font-weight-500 text-uppercase mt-3 mb-0">Watch Promo!</p>
               </div>
             </div>
@@ -193,87 +227,86 @@
     ============================================= -->
       <div class="bg-dark mt-5 py-3">
           <div class="owl-carousel owl-theme" data-autoplay="true" data-nav="true" data-dots="false" data-loop="true" data-margin="50" data-slideby="1" data-stagepadding="25" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="6">
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo1-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo2-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo3-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo8-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo6-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo11-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo7-light.png" alt="" /></a></div>
-            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/client-logo9-light.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-01.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-02.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-03.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-04.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-05.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-06.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-07.png" alt="" /></a></div>
+            <div class="item"><a href="#"><img class="img-fluid" src="images/clients/logo-08.png" alt="" /></a></div>
           </div>
         </div>
       </section>
 
-    <section id="guests" class="section bg-dark-1">
+   <section id="guests" class="section bg-dark-1">
       <div class="container">
         <h2 class="text-white text-center font-weight-600 mb-3">This Year's Guests</h2>
         <hr class="heading-separator-line border-primary border-2 d-block mx-auto mb-5">
         <div class="row justify-content-center">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl mb-5 mb-xl-0">
             <div class="team bg-dark shadow-md">
-              <div class="team-img"> <img class="img-fluid" alt="" src="images/team/leader-2-dark.jpg">
+              <div class="team-img"> <img class="img-fluid" alt="" src="images/guests/guest1.jpg">
                 <div class="team-overlay">
                   <div class="team-overlay-details">
                     <ul class="social-icons social-icons-light d-inline-flex">
-                      <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li class="social-icons-dribbble"><a data-toggle="tooltip" href="http://www.dribbble.com/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
-                      <li class="social-icons-behance"><a data-toggle="tooltip" href="http://www.behance.com/" target="_blank" title="" data-original-title="Behance"><i class="fab fa-behance"></i></a></li>
+                      <li class="social-icons-facebook"><a data-toggle="tooltip" href="https://www.facebook.com/Gary-Delaney-120758874602014/" target="_blank" rel="noopener" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li class="social-icons-twitter"><a data-toggle="tooltip" href="https://twitter.com/garydelaney" target="_blank" rel="noopener" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li class="social-icons-instagram"><a data-toggle="tooltip" href="https://www.instagram.com/garydelaneycomedian/" target="_blank" rel="noopener" title="" data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                      <li class="social-icons-youtube"><a data-toggle="tooltip" href="https://www.youtube.com/c/GaryDelaneyComedian" target="_blank" rel="noopener" title="" data-original-title="YouTube"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="team-details">
-                <h3 class="text-3 text-white text-uppercase mb-1">? ? ?</h3>
-                <p class="text-muted text-uppercase mb-0">Comedian</p>
+                <h3 class="text-3 text-white text-uppercase mb-1">Gary Delaney</h3>
+                <p class="text-muted text-uppercase mb-0">Support</p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl mb-5 mb-xl-0">
             <div class="team bg-dark shadow-md">
-              <div class="team-img"> <img class="img-fluid" alt="" src="images/team/leader-3-dark.jpg">
+              <div class="team-img"> <img class="img-fluid" alt="" src="images/guests/jimmyc.jpg">
                 <div class="team-overlay">
                   <div class="team-overlay-details">
                     <ul class="social-icons social-icons-light d-inline-flex">
-                      <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li class="social-icons-google"><a data-toggle="tooltip" href="http://www.google.com/" target="_blank" title="" data-original-title="Google"><i class="fab fa-google"></i></a></li>
-                      <li class="social-icons-github"><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+                      <li class="social-icons-facebook"><a data-toggle="tooltip" href="https://www.facebook.com/JimmyCarr/" target="_blank" rel="noopener" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li class="social-icons-twitter"><a data-toggle="tooltip" href="https://twitter.com/jimmycarr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noopener" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li class="social-icons-instagram"><a data-toggle="tooltip" href="https://www.instagram.com/jimmycarr/?hl=en" target="_blank" title="" rel="noopener" data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                      <li class="social-icons-youtube"><a data-toggle="tooltip" href="https://www.youtube.com/channel/UCf9BO33b-MnIxB5y0azrxmg" target="_blank" rel="noopener" title="" data-original-title="YouTube"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="team-details">
-                <h3 class="text-3 text-white text-uppercase mb-1">? ? ?</h3>
-                <p class="text-muted text-uppercase mb-0">Comedian</p>
+                <h3 class="text-3 text-white text-uppercase mb-1">Jimmy Carr</h3>
+                <p class="text-muted text-uppercase mb-0">Headliner</p>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl mb-5 mb-xl-0">
             <div class="team bg-dark shadow-md">
-              <div class="team-img"> <img class="img-fluid" alt="" src="images/team/leader-4-dark.jpg">
+              <div class="team-img"> <img class="img-fluid" alt="" src="images/guests/guest3.jpg">
                 <div class="team-overlay">
                   <div class="team-overlay-details">
                     <ul class="social-icons social-icons-light d-inline-flex">
-                      <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li class="social-icons-linkedin"><a data-toggle="tooltip" href="http://www.linkedin.com/" target="_blank" title="" data-original-title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                      <li class="social-icons-facebook"><a data-toggle="tooltip" href="https://www.facebook.com/comedianmattrichardson" target="_blank" rel="noopener" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li class="social-icons-twitter"><a data-toggle="tooltip" href="https://twitter.com/mattrichardson3" target="_blank" rel="noopener" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li class="social-icons-instagram"><a data-toggle="tooltip" href="https://www.instagram.com/mattrichardson3/" target="_blank" rel="noopener" title="" data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                      <li class="social-icons-youtube"><a data-toggle="tooltip" href="https://www.youtube.com/mattrichardsoncomedy" target="_blank" rel="noopener" title="" data-original-title="YouTube"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="team-details">
-                <h3 class="text-3 text-white text-uppercase mb-1">? ? ?</h3>
-                <p class="text-muted text-uppercase mb-0">Comedian</p>
+                <h3 class="text-3 text-white text-uppercase mb-1">Matt Richardson</h3>
+                <p class="text-muted text-uppercase mb-0">Compère</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- About end -->
     
 <!----  <section id="pricing" class="section bg-dark-1">
       <div class="container">
@@ -349,7 +382,7 @@
                   <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>to recieve a quote customised to your needs.</li>
                   <li><span class="text-1 mr-2"></span></li>
                   <li><span class="text-1 mr-2"></span>+44 (0)161 498 3311 </li>
-                  <li><span class="text-1 mr-2"></span>hello@inconnection.uk.com</li>
+                  <li><span class="text-1 mr-2"></span>hello@inconnection.com</li>
                 </ul>
                 <a href="#" class="btn btn-secondary my-2">Book Now</a> </div>
             </div>
@@ -382,10 +415,10 @@
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Four course lunch</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Unlimited beers, wines and soft drinks throughout the afternoon</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Table service</li>
-                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Logo in event programme</li>
+                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Company logo in the event programme</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Cash bar for additional drinks</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary my-2">Book Now</a> </div>
+                    <a href="https://www.londoncomedylunch.com/enquiry.html" class="btn btn-secondary my-2">Book Now</a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
@@ -401,10 +434,10 @@
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Four course lunch</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Unlimited beers, wines and soft drinks throughout the afternoon</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Table service</li>
-                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Logo in event programme</li>
+                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Company logo in the event programme</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Cash bar for additional drinks</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary my-2">Book Now</a> </div>
+                    <a href="https://www.londoncomedylunch.com/enquiry.html" class="btn btn-secondary my-2">Book Now</a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
@@ -420,10 +453,10 @@
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Four course lunch</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Unlimited beers, wines and soft drinks throughout the afternoon</li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Table service</li>
-                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span><span class="text-primary font-weight-700">Advert & logo in event programme</span></li>
+                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span><span class="text-primary font-weight-700">Advert and logo in the event programme</span></li>
                       <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Cash bar for additional drinks</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary my-2">Book Now</a> </div>
+                    <a href="https://www.londoncomedylunch.com/enquiry.html" target="_blank" class="btn btn-secondary my-2">Book Now</a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
@@ -433,16 +466,16 @@
                     <h5 class="text-9 text-white font-weight-500 mb-0">N/A</h5>
                     <p class="text-muted">per Table</p>
                     <ul class="list-style-2 list-style-light text-light text-left">
-                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Get in touch with a member of our team</li>
-                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>to recieve a quote customised to your needs.</li>
+                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>Recieve a quote customised to your requirements</li>
+                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>We're here to help with anything extra you may need</li>
+                      <li><span class="text-1 mr-2"><i class="fas fa-check"></i></span>We're always on hand to answer any questions about your booking</li>
                       <li><span class="text-1 mr-2"></span></li>
                       <li><span class="text-1 mr-2"></span></li>
                       <li><span class="text-1 mr-2"></span></li>
-                      <li><span class="text-1 mr-2"></span></li>
-                      <li><span class="text-1 mr-2"></span>+44 (0)161 498 3311 </li>
-                      <li><span class="text-1 mr-2"></span>hello@inconnection.uk.com</li>
+                      <li><span class="text-1 mr-2"></span>+44 (0)161 498 3311</li>
+                      <li><span class="text-1 mr-2"></span>enquiries@londoncomedylunch.com</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary my-2">Book Now</a> </div>
+                    <a href="https://www.londoncomedylunch.com/enquiry.html" class="btn btn-secondary my-2">Book Now</a> </div>
                 </div>
               </div>
             </div>
@@ -458,8 +491,8 @@
           <div class="owl-carousel owl-theme owl-light" data-nav="true" data-dots="true" data-loop="true" data-margin="30" data-slideby="1" data-stagepadding="10" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="5">
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/jimmyc.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/jimmy-carr-2019"></a>
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/jimmyc.png" alt="">
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2019.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -473,7 +506,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/rossn.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/ross-noble-2018"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2018.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -487,7 +520,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/jasonm.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/jason-manford-2017"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2017.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -501,7 +534,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/darao.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/dara-o-briain-2016"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2016.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -515,7 +548,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/alm.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/al-murray-2015"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2015.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -529,7 +562,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/jackw.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/jack-whitehall-2014"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2014.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -543,7 +576,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/kevinb.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/kevin-bridges-2014"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2014.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -557,7 +590,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/darao.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/dara-o-briain-2013"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2013.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -571,7 +604,7 @@
             <div class="item">
               <div class="portfolio-box bg-dark my-3">
                 <div class="portfolio-img"> <img class="img-fluid d-block" src="images/guests/seanl.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/past-events/sean-lock-2012"></a>
+                  <div class="portfolio-overlay"> <a class="stretched-link" href="https://www.londoncomedylunch.com/2012.html"></a>
                     <div class="portfolio-overlay-details">
                       <p class="text-white text-9 mb-0"><i class="fas fa-plus"></i></p>
                     </div>
@@ -625,8 +658,8 @@
     <section class="section bg-dark-2 text-center">
       <div class="container">
         <div class="d-lg-flex text-center text-lg-left align-items-center justify-content-center">
-          <h2 class="text-9 text-white mb-4 mb-lg-0 mr-2">Have Any Project On Your Mind?</h2>
-          <a href="#contact" class="btn btn-primary rounded-pill shadow-none smooth-scroll mx-3">Let's Discuss</a> </div>
+          <h2 class="text-9 text-white mb-4 mb-lg-0 mr-2">We're here to answer any questions!</h2>
+          <a href="https://www.londoncomedylunch.com/enquiry.html" class="btn btn-primary rounded-pill shadow-none smooth-scroll mx-3">Send Enquiry</a> </div>
       </div>
     </section>
     <!-- Promo Box end --> 
@@ -641,42 +674,29 @@
           <div class="border border-2 p-1">
             <div class="border border-2 p-5">
               <div class="row">
-                <div class="col-xl-10 mx-auto text-center">
-                  <p class="lead text-light mb-1">Send us a note,</p>
-                  <h2 class="text-10 font-weight-400 text-white line-height-3 mb-5">Let’s get started on your project today!</h2>
-                </div>
-              </div>
-              <div class="row">
                 <div class="col-lg-5 col-xl-6 align-self-center">
-                  <form id="contact-form" class="form-border form-border-light" action="php/mail.php" method="post">
                     <div class="form-group">
-                      <input name="name" type="text" class="form-control" required placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                      <input name="email" type="email" class="form-control" required placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                      <textarea name="form-message" class="form-control" rows="3" required placeholder="Tell us more about your needs........"></textarea>
+                      <p class="lead text-light mb-1 text-center">Have an idea for an event or experience?</p>
+                      <h2 class="text-10 font-weight-400 text-white line-height-3 mb-5 text-center">Let us know how we can help</h2>
                     </div>
                     <p class="text-center mt-5 mb-0">
-                      <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex" type="submit" >Send Message</button>
+                      <a class="btn btn-primary rounded-pill shadow-none smooth-scroll mx-3" href="mailto:enquiries@londoncomedylunch.com?subject=New Enquiry&amp;body=Enter a brief statement regarding what you are contacing us for.">Contact Us</a>                      
                     </p>
-                  </form>
                 </div>
                 <div class="col-lg-7 col-xl-6 align-self-center mt-5 mt-lg-0">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="featured-box text-center my-4">
                         <div class="featured-box-icon text-muted"> <i class="fas fa-map-marker-alt"></i></div>
-                        <h3 class="text-4 text-white text-uppercase font-weight-400">Visit us</h3>
-                        <p class="text-light mb-0">Ashbrook Business Park, 4 Longstone Rd,<br>
-                          Wythenshawe, Manchester M22 5LB </p>
+                        <h3 class="text-4 text-white text-uppercase font-weight-400">Visit Us</h3>
+                        <p class="text-light mb-0">Unit 4, Ashbrook Office Park,<br>
+                          Longstone Road,<br> Manchester M22 5LB </p>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="featured-box text-center my-4">
                         <div class="featured-box-icon text-muted"> <i class="fas fa-phone-alt"></i> </div>
-                        <h3 class="text-4 text-white text-uppercase font-weight-400">Call Us Now</h3>
+                        <h3 class="text-4 text-white text-uppercase font-weight-400">Call Us</h3>
                         <p class="text-light mb-0">Phone: (+44) 0161 498 3311<br>
                         </p>
                       </div>
@@ -684,17 +704,16 @@
                     <div class="col-sm-6">
                       <div class="featured-box text-center my-4">
                         <div class="featured-box-icon text-muted"> <i class="fas fa-envelope"></i> </div>
-                        <h3 class="text-4 text-white text-uppercase font-weight-400">Inquiries</h3>
-                        <p class="text-light mb-0"><a class="text-light" href="mailto:info@dooninc.com">hello@inconnection.uk.com</a><br>
-                          <a class="text-light" href="mailto:hello@inconnection.uk.com"></a></p>
+                        <h3 class="text-4 text-white text-uppercase font-weight-400">Email Us</h3>
+                        <p class="text-light mb-0"><a class="text-light" href="mailto:enquiries@londoncomedylunch.com?subject=LCL Enquiry 2021&amp;body=Enter a brief statement regarding what you are contacing us for.">enquiries@londoncomedylunch.com</a><br>
+                          <a class="text-light" href="mailto:enquiries@londoncomedylunch.com?subject=LCL Enquiry 2021&amp;body=Enter a brief statement regarding what you are contacing us for."></a></p>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="featured-box text-center my-4">
-                        <div class="featured-box-icon text-muted"> <i class="fas fa-clock"></i> </div>
-                        <h3 class="text-4 text-white text-uppercase font-weight-400">Business Hours</h3>
-                        <p class="text-light mb-0">Mon to Fri<br>
-                          (9 am – 5:30 pm)</p>
+                        <div class="featured-box-icon text-muted"> <i class="fas fa-desktop"></i> </div>
+                        <h3 class="text-4 text-white text-uppercase font-weight-400">Our Website</h3>
+                        <p class="text-light mb-0" href="https://www.inconnection.com/">inconnection.com</p>
                       </div>
                     </div>
                   </div>
@@ -717,7 +736,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 align-self-center text-center text-lg-left">
-          <p class="mb-0">© 2021 <a href="https://www.inconnection.uk.com">Inconnection UK Ltd</a>. All Rights Reserved.</p>
+          <p class="mb-0">© 2021 <a href="https://www.inconnection.com">Inconnection UK Ltd</a>. All Rights Reserved.</p>
         </div>
         <div class="col-lg-4 align-self-center">
           <ul class="nav justify-content-center my-3 my-lg-0">
@@ -758,7 +777,7 @@
         <h3 class="text-white mb-3 mt-4">Terms of Use</h3>
         <p></p>
         <h5 class="text-4 text-white">AGREEMENT TO TERMS</h5>
-        <p>These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Inconnection UK Ltd ("Company", “we”, “us”, or “our”), concerning your access to and use of the https://www.inconnection.uk.com/ website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+        <p>These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Inconnection UK Ltd ("Company", “we”, “us”, or “our”), concerning your access to and use of the https://www.inconnection.com/ website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
           Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms of Use, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Terms of Use to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Use by your continued use of the Site after the date such revised Terms of Use are posted.
           
@@ -775,7 +794,7 @@
 
           If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Site (or any portion thereof).</p>
         <h3 class="text-white mb-3 mt-4">Privacy Policy</h3>
-        <p>We care about data privacy and security. Please review our Privacy Policy: https://www.inconnection.uk.com/privacy-cookie-policy/. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom.</p>
+        <p>We care about data privacy and security. Please review our Privacy Policy: https://www.inconnection.com/privacy-cookie-policy/. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom.</p>
         </ol>
       </div>
     </div>
@@ -830,5 +849,14 @@
 <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 <!-- Custom Script --> 
 <script src="js/theme.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DT9ET6BXGD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DT9ET6BXGD');
+</script>
+
 </body>
 </html>
