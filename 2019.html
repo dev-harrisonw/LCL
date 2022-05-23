@@ -1,3 +1,8 @@
+<?php
+include "php/connect.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +12,8 @@
 <link href="favicon.ico" rel="icon" />
 <title>London Comedy Lunch | 2019</title>
 <meta name="description" content="London Comedy Lunch 2021 | Previous Events | 2019">
-<meta name="author" content="inconnection.uk.com">
+<meta name="author" content="inconnection.com">
+<link rel="stylesheet" href="css/index.css">
 
 <!-- Web Fonts -->
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
@@ -69,348 +75,33 @@
     
     <!-- Intro
     ============================================= -->
-    <section id="home" class="section bg-dark">
-      <div class="container">
-        <h1 class="text-primary text-center font-weight-600 mb-3">2019</h1>
-        <div class="row">
-          <div class="col-12"> 
-            <h3 class="text-white text-center font-weight-600 mb-3">Event Video</h3>
-            <hr class="heading-separator-line border-primary border-2 d-block mx-auto mb-5">   
-            <iframe width="100%" height="515" src="https://www.youtube.com/embed/asxW-6D2J5U"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Intro end --> 
-    
-    <!-- Our Work
-    ============================================= -->
-    <section id="work" class="section bg-dark pt-0">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-md-8 col-lg-9 align-self-center order-1 order-md-0">
-          </div>
-        </div>
-        
-        <!-- Filter Menu --> 
-        <h3 class="text-white text-center font-weight-600 mb-3">Image Gallery</h3>
-        <hr class="heading-separator-line border-primary border-2 d-block mx-auto mb-5">   
-        <!-- Filter Menu end -->
-        <div class="portfolio popup-ajax-gallery">
-          <div class="row portfolio-filter">
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (1).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (1).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (2).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (2).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (3).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (3).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (4).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (4).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (5).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (5).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (6).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (6).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (7).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (7).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (8).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (8).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (9).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (9).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (10).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (10).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (11).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (11).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (12).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (12).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (13).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (13).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (14).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (14).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (15).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (15).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (16).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (16).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (17).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (17).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (18).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (18).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (19).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (19).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (20).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (20).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (21).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (21).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (22).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (22).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (23).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (23).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (24).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (24).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (25).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (25).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (26).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (26).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (27).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (27).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 app">
-              <div class="portfolio-box rounded my-3">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/previous/2019/image2019 (28).jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/previous/2019/image2019 (28).jpg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-white text-6"><i class="fas fa-expand"></i></p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>                                    
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Our Work end --> 
+    <div class="cricles">
+      <?php 
+   
+   
+   $sql="select * from `customerbillinformation`";
+   $result=mysqli_query($con,$sql);
+   
+   
+   if($result){
+       while( $row=mysqli_fetch_assoc($result)){
+           $id=$row['id'];
+           $name=$row['name'];
+           $ammount=$row['ammount'];
+           $status=$row['status'];
+           echo '
+           <div class="circle" data-status='.$status.'>
+           <p class="name">'.$name.'</p>
+           <p class="ammoutn">'.$ammount.'</p>
+   
+       </div>
+           ';
+       }
+   
+   }
+   ?>
+   
+   </div>
     
 
   
@@ -461,5 +152,6 @@
 <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 <!-- Custom Script --> 
 <script src="js/theme.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
